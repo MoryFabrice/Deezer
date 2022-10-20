@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+    .inactive{
+        display: none !important;
+    }
+    .header-content {
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+    }
+    .offer {
+        width: 40%;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    .h2 {
+        font-size: 40px;
+    }
+    .h3 {
+        font-size: 18px;
+    }
+    .signin-action {
+        width: 55%;
+    }
+}
+@media (max-width: 450px) {
+    .offer {
+        width: 70%;
+    }
+    .signin-action {
+        width: 80%;
+    }
+}

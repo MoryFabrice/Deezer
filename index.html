@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+        <title>
+            Deezer Premium | Musique illimitée et zéro publicité | Gratuit
+            pendant 3 mois
+        </title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/02a3bd3c3b.js"
+            crossorigin="anonymous"
+        ></script>
+        <script type="text/javascript" src="./js/menu-burger.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="header-content">
+                    <img
+                        src="https://e-cdn-files.dzcdn.net/cache/slash/images/unlogged/common/logos/deezer.b85ee3e3fadefc11085634b3068fb26f.png"
+                        alt="Deezer Premium | Musique illimitée et zéro publicité | Gratuit
+                        pendant 3 mois"
+                        class="image"
+                    />
+                    <div class="menu">
+                        <button class="link">Télécharger</button>
+                        <button class="link">Offres</button>
+                        <button class="connexion">Connexion</button>
+                        <button class="register">Inscription</button>
+                    </div>
+                    <div class="menu-burger">
+                        <i
+                            class="fa-solid fa-burger -mr-3"
+                            id="openBtn"
+                            onclick="handleMenu(true)"
+                        ></i>
+                        <i
+                            class="fa-solid fa-xmark inactive"
+                            id="closeBtn"
+                            onclick="handleMenu(false)"
+                        ></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menuHidden inactive" id="menuVisible">
+                <ul>
+                    <li><a href="https://www.google.fr">Connexion</a></li>
+                    <li>Inscription</li>
+                    <li>Télécharger l'application</li>
+                    <li>Offres</li>
+                    <li>Explorer tous nos Univers</li>
+                </ul>
+            </div>
+            <div class="main-content" id="menuInvisible">
+                <div class="offer">
+                    <button class="month-offer">MENSUEL</button>
+                    <button class="annual-offer">
+                        ANNUEL<span class="discount"> -25%</span>
+                    </button>
+                </div>
+                <h1 class="h1">Deezer Premium</h1>
+                <h2 class="h2">3 mois offerts</h2>
+                <h3 class="h3">
+                    Puis 10,99 €/mois
+                    <br />
+                    Résilie à tout moment.*
+                </h3>
+                <div class="signin-action">
+                    <input
+                        class="input-email"
+                        type="text"
+                        placeholder="Ton email pour t'abonner"
+                    />
+                    <button
+                        class="fa-solid fa-chevron-right btn-chevron"
+                    ></button>
+                </div>
+                <ul class="list">
+                    <li>• Télécharge ta musique</li>
+                    <li>• En illimité et à la demande</li>
+                    <li>• Écoute sans aucune publicité</li>
+                </ul>
+                <button class="view-more">
+                    Voir plus <br />
+                    <i class="down-icone fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>
